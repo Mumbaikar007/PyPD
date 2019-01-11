@@ -6,7 +6,7 @@ from shutil import copytree, ignore_patterns
 
 files = os.listdir('/media/optimus/')
 
-destination = '/home/optimus/Backup/back_%s'%datetime.datetime.now()
+destination = '/home/<username>/Backup/back_%s'%datetime.datetime.now()
 try :
     for f in files:
         source = '/media/optimus/%s' % f
