@@ -10,4 +10,4 @@ $ crontab -e
 > \* \* \* \* \* /home/user/path/pyPD.sh > /tmp/pypd.log
 
 
-Change <username> in .py file. ( with whoami)
+Change "< username >" in .py file. ( with whoami)
